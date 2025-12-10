@@ -1,5 +1,5 @@
 @Proceedings{Reliable-and-Trustworthy-AI-2025,
-    booktitle = {Reliable and Trustworthy Artificial Intelligence},
+    booktitle = {Reliable and Trustworthy Artificial Intelligence 2025},
     name      = {Reliable and Trustworthy Artificial Intelligence},
     shortname = {Reliable & Trustworthy AI},
     year      = {2025},
@@ -10,10 +10,32 @@
     conference_url = {https://workshop2025.reliable-ai.org/}
 }
 
+@InProceedings{preface,
+  author    = {Nguyen, Hoang D. and Le, Duc-Trong and Bj{\"o}rklund, Johanna and Vu, Xuan-Son},
+  title     = {Preface},
+  pages     = {v-vi},
+  abstract  = {Preface}
+}
+
+@InProceedings{cai24,
+    title    = {Reinforcement Learning in Online Advertising: Challenges, Prospects, and Trust},
+    author   = {Cai, Jingwen and Bj{\"o}rklund, Johanna},
+    pages    = {1-10},
+    abstract = {The central decision-making processes involved in online advertising are often supported
+by Reinforcement Learning (RL), which serves to optimise long-term accumulative re-
+wards through interactions with evolving environments. While RL’s potential in various
+real-world applications has been reviewed in extant survey works, the specific ways RL
+algorithms address online advertising challenges remain unchartered. Therefore, this paper
+reviews RL applications in this practice area, identifying core challenges and key issues
+including trust concerns. We categorize reviewed work based on problem domains and
+propose potential directions for future research. Our goal is to bridge the cross-disciplinary
+gap in this field, offering perspectives and guidance for researchers and practitioners.}
+}
+
 @InProceedings{chai24,
     title    = {AIQTrees: A Drone Imagery Dataset for Tree Segmentation},
     author   = {Chai, Joseph and To, Alex and O' Sullivan, Barry and Nguyen, Hoang D.},
-    pages    = {1-8},
+    pages    = {11-18},
     abstract = {The reliability of AI models typically depends on the data they are trained with, and
 accurate interpretations require large amounts of data. The scarcity of publicly available
 datasets is typically encountered for specific small-scale sustainability projects, making
@@ -27,10 +49,64 @@ consideration. We also included a baseline benchmark for the semantic segmentati
 along with the dataset. It can be accessed at: https://github.com/ReML-AI/AIQTrees.}
 }
 
+@InProceedings{ehnemark24,
+    title    = {Bridging Human Cognition and AI: Enhancing Transparency and Explainability with Hierarchical Conceptual Graphs and the Knowing Protocol},
+    author   = {Ehnemark, Klas},
+    pages    = {19-23},
+    abstract = {The rapid deployment of large language models (LLMs) in critical domains demands greater
+transparency and explainability to build user trust and enable effective collaboration. Cur-
+rent AI-human interactions largely rely on unstructured text, often resulting in misunder-
+standings and limited insight into AI reasoning. We introduce a Hierarchical Conceptual
+Graph Model and the Knowing Communication Protocol to bridge the gap between sym-
+bolic human reasoning and sub-symbolic AI processing. Our model combines conceptual
+spaces, ontologies, and hierarchical structures to explicitly represent complex knowledge,
+while the Knowing Protocol, through the Knowing Markup Language (KML), facilitates
+structured, machine-readable interactions. This approach enhances transparency by align-
+ing AI-generated content with human cognitive structures, promoting clarity and collabo-
+rative knowledge building—ultimately addressing the limitations of traditional text-based
+AI tools and advancing trustworthy, explainable AI.}
+}
+
+@InProceedings{hoang24,
+    title    = {A lightweight and reliable framework toward real-time student engagement predictions in learning analytics},
+    author   = {Hoang, Long and Shorten, George and O'Sullivan, Barry and Nguyen, Hoang D.},
+    pages    = {24-33},
+    abstract = {Learning analytics can enable the provision of meaningful feedback based on the collected data, help
+educators to make decisions with and about learners, and improve learner performance. Student engagement
+predictions are a key factor in generating feedback for real-time learning analytics applications, such as
+dashboards. However, most previous work has been based on a heavy deep learning model, which results in
+challenges for deployment in real-time applications (a resource efficiency requirement in reliable AI). This paper
+proposes a lightweight deep-learning framework for predicting student engagement in video to address this
+limitation. The proposed method uses customized MobileNetV2 as the backbone, with an input size of 32 by 32
+by 3, to extract features from consecutive video frames. Multi-Scale attention – Residual (MUSER) is used to
+capture global information and contextual representation of the extracted features. Finally, LSTM examines the
+temporal variations in video frames and yields the prediction result. We use the DAISEE dataset, the most popular
+dataset in the learning analytics community, to evaluate the proposed framework. Experimental results
+demonstrate that the proposed method achieves good accuracy while significantly reducing the model size
+compared to other approaches.}
+}
+
+@InProceedings{le24,
+    title    = {Trustworthiness in Multi-Agent UAV Systems: A Scoping Review},
+    author   = {Le, Mai and Minghim, Rosane and O'Sullivan, Barry and Nguyen, Hoang D.},
+    pages    = {34-44},
+    abstract = {The integration of artificial intelligence (AI) into multi-unmanned aerial vehicle-assisted
+communication plays a pivotal role in sixth-generation wireless communication and be-
+yond. Most AI techniques have primarily focused on AI-based applications and technical
+problems, rather than examining the accountability and trustworthiness of AI models, a
+crucial evaluation criteria for AI human beings. This work aims to provide a scoping re-
+view of the trustworthiness of AI in multi-agent UAV systems. Firstly, we present the
+background of multi-agent systems and methods to evaluate, enhance the trustworthiness
+of AI systems. Secondly, we review innovative techniques that address trustworthy require-
+ments in terms of safety, robustness, privacy, accountability, explainability, and fairness,
+along with challenges in multi-agent UAV communications. Finally, we highlight several
+promising solutions and future research directions.}
+}
+
 @InProceedings{naeem24,
     title    = {Comparing Genetic Algorithms and Principal Component Analysis in Reducing Feature Dimensionality},
     author   = {Naeem, Aiman and Khan, Muhammad Farhan and Rezaei, Saeid and Iqbal, Adeel and Sohail, Muhammad and Jatoi, Munsif and Shakeel, Atif},
-    pages    = {1-14},
+    pages    = {45-58},
     abstract = {It is important to do dimensionality reduction or feature selection so that machine learning
 models can be built in an efficient and interpretable way, especially with high-dimensional
 datasets. Using data up to October 2023, this study compares two methods, namely, Ge-
@@ -51,79 +127,22 @@ needs to be prioritized in terms of application specificity when searching for d
 reduction methods.}
 }
 
-@InProceedings{ehnemark24,
-    title    = {Bridging Human Cognition and AI: Enhancing Transparency and Explainability with Hierarchical Conceptual Graphs and the Knowing Protocol},
-    author   = {Ehnemark, Klas},
-    pages    = {1-5},
-    abstract = {The rapid deployment of large language models (LLMs) in critical domains demands greater
-transparency and explainability to build user trust and enable effective collaboration. Cur-
-rent AI-human interactions largely rely on unstructured text, often resulting in misunder-
-standings and limited insight into AI reasoning. We introduce a Hierarchical Conceptual
-Graph Model and the Knowing Communication Protocol to bridge the gap between sym-
-bolic human reasoning and sub-symbolic AI processing. Our model combines conceptual
-spaces, ontologies, and hierarchical structures to explicitly represent complex knowledge,
-while the Knowing Protocol, through the Knowing Markup Language (KML), facilitates
-structured, machine-readable interactions. This approach enhances transparency by align-
-ing AI-generated content with human cognitive structures, promoting clarity and collabo-
-rative knowledge building—ultimately addressing the limitations of traditional text-based
-AI tools and advancing trustworthy, explainable AI.}
-}
-
-@InProceedings{cai24,
-    title    = {Reinforcement Learning in Online Advertising: Challenges, Prospects, and Trust},
-    author   = {Cai, Jingwen and Bj{\"o}rklund, Johanna},
-    pages    = {1-10},
-    abstract = {The central decision-making processes involved in online advertising are often supported
-by Reinforcement Learning (RL), which serves to optimise long-term accumulative re-
-wards through interactions with evolving environments. While RL’s potential in various
-real-world applications has been reviewed in extant survey works, the specific ways RL
-algorithms address online advertising challenges remain unchartered. Therefore, this paper
-reviews RL applications in this practice area, identifying core challenges and key issues
-including trust concerns. We categorize reviewed work based on problem domains and
-propose potential directions for future research. Our goal is to bridge the cross-disciplinary
-gap in this field, offering perspectives and guidance for researchers and practitioners.}
-}
-
-@InProceedings{le24,
-    title    = {Trustworthiness in Multi-Agent UAV Systems: A Scoping Review},
-    author   = {Le, Mai and Minghim, Rosane and O'Sullivan, Barry and Nguyen, Hoang D.},
-    pages    = {1-11},
-    abstract = {The integration of artificial intelligence (AI) into multi-unmanned aerial vehicle-assisted
-communication plays a pivotal role in sixth-generation wireless communication and be-
-yond. Most AI techniques have primarily focused on AI-based applications and technical
-problems, rather than examining the accountability and trustworthiness of AI models, a
-crucial evaluation criteria for AI human beings. This work aims to provide a scoping re-
-view of the trustworthiness of AI in multi-agent UAV systems. Firstly, we present the
-background of multi-agent systems and methods to evaluate, enhance the trustworthiness
-of AI systems. Secondly, we review innovative techniques that address trustworthy require-
-ments in terms of safety, robustness, privacy, accountability, explainability, and fairness,
-along with challenges in multi-agent UAV communications. Finally, we highlight several
-promising solutions and future research directions.}
-}
-
-@InProceedings{hoang24,
-    title    = {A lightweight and reliable framework toward real-time student engagement predictions in learning analytics},
-    author   = {Hoang, Long and Shorten, George and O'Sullivan, Barry and Nguyen, Hoang D.},
-    pages    = {1-10},
-    abstract = {Learning analytics can enable the provision of meaningful feedback based on the collected data, help
-educators to make decisions with and about learners, and improve learner performance. Student engagement
-predictions are a key factor in generating feedback for real-time learning analytics applications, such as
-dashboards. However, most previous work has been based on a heavy deep learning model, which results in
-challenges for deployment in real-time applications (a resource efficiency requirement in reliable AI). This paper
-proposes a lightweight deep-learning framework for predicting student engagement in video to address this
-limitation. The proposed method uses customized MobileNetV2 as the backbone, with an input size of 32 by 32
-by 3, to extract features from consecutive video frames. Multi-Scale attention – Residual (MUSER) is used to
-capture global information and contextual representation of the extracted features. Finally, LSTM examines the
-temporal variations in video frames and yields the prediction result. We use the DAISEE dataset, the most popular
-dataset in the learning analytics community, to evaluate the proposed framework. Experimental results
-demonstrate that the proposed method achieves good accuracy while significantly reducing the model size
-compared to other approaches.}
+@InProceedings{nguyen24,
+    title    = {Reliable Cultural Knowledge Preservation in Multilingual LLMs through Model Merging},
+    author   = {Nguyen, Hoang Quan and Pham, Nhut Huy and Pahani, Maziyar and Bj{\"o}rklund, Johanna and Vu, Xuan-Son},
+    pages    = {59-66},
+    abstract = {We introduce a reliable approach for enhancing multilingual language models that preserves cultural knowledge while 
+improving reasoning capabilities, focusing on low-resource languages. Using Qwen as a base model, we demonstrate that trust-aware model merging
+can verifiably improve performance without compromising cultural understanding. Our proposed approach achieves quantifiable improvements in both 
+reasoning tasks and cultural benchmarks while maintaining computational efficiency. Results on Vietnamese and Arabic language tasks show consistent 
+performance gains while preserving cultural knowledge, offering a reliable path for developing trustworthy multilingual AI systems. Our models are 
+available at github.com/WARA-ML/waraml-mini-brains.}
 }
 
 @InProceedings{varshney24,
     title    = {Recurrence Analysis of Integrally Private Support Vector Machine},
     author   = {Varshney, Ayush K. and Torra, Vicen{\c c}},
-    pages    = {1-6},
+    pages    = {67-72},
     abstract = {Integral privacy, an alternative to k-Anonymity and differential privacy, focuses on creating ambiguity 
 for intruders by considering models generated from diverse datasets as privacy-preserving. Integral privacy calls such models
 as recurring models. While prior research has primarily explored recurrence in deep learning models which have large parameter 
@@ -135,22 +154,10 @@ environment SVM models recurs with high probability. This research enhances our 
 of SVMs, providing valuable insights into their privacy guarantees.}
 }
 
-@InProceedings{nguyen24,
-    title    = {Reliable Cultural Knowledge Preservation in Multilingual LLMs through Model Merging},
-    author   = {Nguyen, Hoang Quan and Pham, Nhut Huy and Pahani, Maziyar and Bj{\"o}rklund, Johanna and Vu, Xuan-Son},
-    pages    = {1-8},
-    abstract = {We introduce a reliable approach for enhancing multilingual language models that preserves cultural knowledge while 
-improving reasoning capabilities, focusing on low-resource languages. Using Qwen as a base model, we demonstrate that trust-aware model merging
-can verifiably improve performance without compromising cultural understanding. Our proposed approach achieves quantifiable improvements in both 
-reasoning tasks and cultural benchmarks while maintaining computational efficiency. Results on Vietnamese and Arabic language tasks show consistent 
-performance gains while preserving cultural knowledge, offering a reliable path for developing trustworthy multilingual AI systems. Our models are 
-available at github.com/WARA-ML/waraml-mini-brains.}
-}
-
 @InProceedings{nguyen25,
     title    = {Reliable-Data-Split (RDS): Maximizing Model Potential with Reinforced Selection Strategy},
     author   = {Nguyen, Hoang D. and Vu, Xuan-Son and Truong, Quoc-Tuan and Le, Duc-Trong},
-    pages    = {1–17},
+    pages    = {73-89},
     abstract = {The nexus between data characteristics and parametric models is fundamental for developing effective and 
 reliable artificial intelligence (AI) systems. Mismatches in data properties for model development may lead to deleterious 
 effects on AI model performance in machine learning practice. This paper proposes a Reliable Data Split (RDS) procedure
@@ -168,7 +175,7 @@ searching the best possible and shift-stable solutions.}
 @InProceedings{phan25,
     title    = {Improving Continual Learning Robustness in Medical Imaging via Illumination Adaptive Transformer},
     author   = {Phan, Thanh-Ngoc and Pham, Quynh-Trang Thi and Le, Duc-Trong},
-    pages    = {1-12},
+    pages    = {90-101},
     abstract = {Continual learning (CL) refers to the capability of a model to learn progressively from an evolving stream of data, retaining previously 
 acquired knowledge while integrating new information. This capability is pivotal in advancing medical image classification, especially when data availability 
 fluctuates. Beyond investigating CL performance under standard clean-data conditions, this paper systematically evaluates the robustness of representative
@@ -183,7 +190,7 @@ consistently improves final classification accuracy and robustness across multip
 @InProceedings{salim25,
     title    = {Towards a SAFETY-AI framework for Healthcare Education},
     author   = {Salim, Kinza and Nana, Vanita Kouomogne and Marshall, Mark T. and Nguyen, Hoang D.},
-    pages    = {1-13},
+    pages    = {102-114},
     abstract = {Safety is an integral part of healthcare professionalism, and with new technological developments, such as Artificial Intelligence (AI), there is an ongoing 
 need to develop guardrails for healthcare education. The landscape of AI safety frameworks for healthcare education is evolving, with significant development in regulatory 
 compliance, ethical governance, and practical implementation approaches. This paper addresses the need for building a SAFETY-AI framework for healthcare education and proposes 
